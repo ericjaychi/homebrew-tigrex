@@ -1,4 +1,6 @@
 class Tigrex < Formula
+    include Language::Python::Virtualenv
+
     desc "A Magic the Gathering CLI Tool"
     homepage "https://github.com/ericjaychi/tigrex"
     url "https://github.com/ericjaychi/tigrex/archive/v1.2.0.tar.gz"
@@ -8,6 +10,6 @@ class Tigrex < Formula
     depends_on "python"
 
     def install
-        bin.install "tigrex"
+        virtualenv_install_with_resources
     end
 end
