@@ -10,6 +10,9 @@ class Tigrex < Formula
     depends_on "python"
 
     def install
+        cd "source/python" do
+            *Language::Python.setup_install_args(prefix)
+        end
         virtualenv_install_with_resources
     end
 end
