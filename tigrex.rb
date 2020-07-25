@@ -3,9 +3,9 @@ class Tigrex < Formula
 
     desc "A Magic the Gathering CLI Tool"
     homepage "https://github.com/ericjaychi/tigrex"
-    url "https://github.com/ericjaychi/tigrex/archive/v1.2.0.tar.gz"
-    sha256 "4fa2bc917f169097d1a058dea02b5947e7ee58ac80f146c6ee7deaaf8de81800"
-    version "1.2.0"
+    url "https://github.com/ericjaychi/tigrex/archive/v1.3.0.tar.gz"
+    sha256 "3cc2694449dacc97fde1c45eb997e842753abca7c1bd8f557e61e1809e72c229"
+    version "1.3.0"
 
     resource "fire" do
         url "https://files.pythonhosted.org/packages/5a/b7/205702f348aab198baecd1d8344a90748cb68f53bdcd1cc30cbc08e47d3e/fire-0.1.3.tar.gz"
